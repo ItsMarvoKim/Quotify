@@ -4,8 +4,13 @@
 }
 
 .header-text {
-    font-family: 'Yeseva One', 'cursive';
+    font-family: 'Titan One', 'cursive';
     font-size: 1.2rem;
+}
+
+.quotes-title{
+   text-align: center;
+   font-family: 'Yeseva One', 'cursive';
 }
 
 .timeline {
@@ -48,7 +53,7 @@
     z-index: -1;
     white-space: nowrap;
     display: inline-block;
-    background-color: #111;
+    background-color: rgb(136, 74, 74);
     padding: 4px 10px 4px 20px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -81,7 +86,7 @@
 .timeline-date {
     margin-bottom: 15px;
     padding: 2px 15px;
-    background: linear-gradient(#74cae3, #5bc0de 60%, #4ab9db);
+    background: linear-gradient(#7488e3, #5bc0de 60%, #4ab9db);
     position: relative;
     display: inline-block;
     border-radius: 20px;
@@ -145,7 +150,7 @@
 
 .box-content {
     padding: 5px 15px;
-    background-color: #17191B;
+    background-color: #6d3838;
 }
 
 .box-content strong {
