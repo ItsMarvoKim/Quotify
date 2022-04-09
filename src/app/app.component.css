@@ -170,3 +170,8 @@
     text-align: right;
     font-style: italic;
 }
+
+button{
+    width: 30%;
+    height: 30px;
+}
