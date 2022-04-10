@@ -284,3 +284,7 @@ hr {
     text-align: right;
     font-style: italic;
 }
+
+#result{
+    size: 0.3rem;
+}
