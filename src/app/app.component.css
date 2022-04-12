@@ -326,3 +326,7 @@ hr {
 #result{
     border-radius: 50%;
 }
+
+form{
+    text-align: center;
+}

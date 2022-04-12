@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VoteComponent } from './vote/vote.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VoteComponent
+    VoteComponent,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
