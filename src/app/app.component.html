@@ -405,12 +405,24 @@
     </div>
   </div>
 </div>
+
 <div class="newquotes-wrap">
-  <form action="#" class="newquotes-contents">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form (ngSubmit)="postQuote(username, quoteBody)" class="newquotes-contents">
     
-    <label for="name">Name</label>
-    <input type="text" id="name">
-    <label for="quote">Quote:</label>
-    <textarea rows="3" cols="30" name="quote" id="quote">Enter quote here...</textarea>
-  </form>
+          <div class="form-group">
+            <label for="name">Name</label>
+          <input [(ngModel)]="username" class="form-control" name="username" type="text" id="name">
+          </div>
+         <div class="form-group">
+          <label for="quote">Quote:</label>
+          <textarea [(ngModel)]="quoteBody" class="form-control" name="quotebody" rows="3" cols="30" id="quote">Enter quote here...</textarea>
+         </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>

@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Quotify';
+  username:string=""
+  quoteBody:string=""
+  postQuote(username:string ,quoteBody:string){
+    console.log(username)
+    console.log(quoteBody)
+  }
+
 
   // downvotes:number=0;
   // upvotes:number=0;
